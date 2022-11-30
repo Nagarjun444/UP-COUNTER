@@ -11,7 +11,7 @@ always@(posedge clk or posedge reset)
 	else
 	 begin
       counter <= counter+1'b1;	
-      $dispaly("counter=%0d",counter); 
+      $display("counter=%0d",counter); 
      end	  
   end
 
